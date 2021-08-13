@@ -38,7 +38,7 @@ def check_events(ai_settings, screen, ufo, bullets):
             check_keyup_events(event, ufo)
 
 
-def update_screen(ai_settings, screen, ufo, aliens, bullets):
+def update_screen(ai_settings, screen, ufo, bullets,aliens):
     screen.fill(ai_settings.bg_color)
     for bullet in bullets:
         bullet.draw_bullet()
